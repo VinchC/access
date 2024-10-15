@@ -1,6 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
-  return <p>Hello</p>;
+  return (
+    <>
+      <p>Hello (homepage content)</p>
+      <Link href="/dashboard/">Dashboard</Link>
+    </>
+  );
 }
