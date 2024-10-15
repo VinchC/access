@@ -4,14 +4,18 @@ import "./not-found.css";
 export default function Custom404() {
   return (
     <>
-<section className="error-container">
-  <span>4</span>
-  <span><span className="screen-reader-text">0</span></span>
-  <span>4</span>
-</section>
-<div className="link-container">
-  <Link href="/" className="more-link">Back to homepage</Link>
-</div>
+      <section className="error-container">
+        <span>4</span>
+        <span>
+          <span className="screen-reader-text">0</span>
+        </span>
+        <span>4</span>
+      </section>
+      <div className="link-container">
+        <Link href="/" className="more-link">
+          Back to homepage
+        </Link>
+      </div>
     </>
   );
 }
